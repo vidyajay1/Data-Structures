@@ -1,0 +1,15 @@
+Vidya Jayaraman 
+vijayara 
+12B 
+February 6, 2018
+README
+This programming assignment defines the Node class to contain two String fields instead of a single data field. 
+This zip  file contains: 
+README 
+DictionaryTest.java
+DuplicateKeyException.java
+KeyNotFoundException.java
+DictionaryInterface.java
+DictionaryClient.java 
+Makefile
+
