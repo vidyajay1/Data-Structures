@@ -37,3 +37,6 @@ Each of these functions take time O(n+m) because DFS takes O(n+m), iterating thr
 transpose takes O(m), and doing DFS again takes O(n+m). The extra methods of iterating through the list still takes O(n),
 since it also just iterates through all the vertices. By simplifying these runtimes, it just gives O(n+m), since the constants
 do not matter. 
+
+Since I am calling the functions unnecessarily (such as when the directed graph does not change), this makes the 
+algorithm inefficient. 
