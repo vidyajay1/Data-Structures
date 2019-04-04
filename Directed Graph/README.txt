@@ -27,7 +27,7 @@ this list of arrays and compared each value to the integer u that was passed int
 the same, then I would return the length of this list that contained all the vertices in the SCC that u
 was also in. Otherwise, I would return -1, since u was not in any of the SCCs. 
 
-For intSameSCC, I used the same DFS, tranpose and second DFS functions as getNumSCCVertices. But I also had 
+For inSameSCC, I used the same DFS, tranpose and second DFS functions as getNumSCCVertices. But I also had 
 to check for v when I iterated through the list of arrays that contained each of the SCCs. So, I had a counter
 variable that checked to see if v was also in the same list as u. If u was in the list, then count would increment by 
 1. If v was in the list, then count would increment by 1. If count was 2, then u and v were in the same list and I would
